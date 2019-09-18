@@ -1,0 +1,47 @@
+{
+  "name": "@watermark",
+  "version": "0.0.2",
+  "description": "watermark use in react || vue || AngularJS || jq || Native JS",
+  "main": "dist/watermark.cjs.js",
+  "module": "dist/watermark.esm.js",
+  "iife": "dist/watermark.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "herongwen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-delete": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "parser": "babel-eslint",
+    "extends": "eslint:recommended",
+    "plugins": [
+      "standard"
+    ]
+  },
+  "browserslist": [
+    "ie > 9",
+    "ios > 8",
+    "safari > 8",
+    "android > 4.4",
+    "firefox esr",
+    "last 4 chrome versions"
+  ]
+}
