@@ -3,7 +3,7 @@ import { monitorDom } from './util'
 import { DEFAULT_SETTINGS } from './constants'
 
 /*加载水印-添加浏览器窗口监听事件-添加dom变化监听事件*/
-export function watermark(settings) {
+export function watermark(settings = {}) {
     loadMark(settings)
     // 添加浏览器窗口监听事件
     window.addEventListener('resize', function () {

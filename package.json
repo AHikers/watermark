@@ -1,6 +1,6 @@
 {
   "name": "watermark-com",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "watermark use in react || vue || AngularJS || jq || Native JS",
   "main": "dist/watermark.cjs.js",
   "module": "dist/watermark.esm.js",
