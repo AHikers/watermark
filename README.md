@@ -1,5 +1,5 @@
-# @watermark
-`watermark`是一个通用的水印库，项目运用rollup构建，输出iife、cjs、esm三个压缩文件，分别对应了三种使用方式，能够适用于原生js，react、Vue、angular、jq等主流框架。支持监听浏览器resize事件和mutationObserve对象监听DOM变化并做相应的调整。
+# watermark-com
+`watermark-com`是一个通用的水印库，项目运用rollup构建，输出iife、cjs、esm三个压缩文件，分别对应了三种使用方式，能够适用于原生js，react、Vue、angular、jq等主流框架。支持监听浏览器resize事件和mutationObserve对象监听DOM变化并做相应的调整。
 
 ## 一、使用方法
 
@@ -19,14 +19,14 @@ watermarkObj.watermark({ text: "测试水印" })
 
 第一步：npm获取水印包
 ```
-npm install @watermark --save
-# yarn add @watermark
+npm install watermark-com --save
+# yarn add watermark-com
 ```
 
 第二步：引入水印模块 
 ```
-import { watermark } from '@watermark'
-// const watermark = require('@watermark')
+import { watermark } from 'watermark-com'
+// const watermark = require('watermark-com')
 ```
 
 第三步：在确保页面DOM加载完毕之后，调用watermark方法
@@ -67,6 +67,6 @@ watermark({ text: "测试水印" })
 
 ## 三、浏览器支持情况
 
-   Chrome、FireFox、Safari、IE10及以上浏览器支持全部功能
+  Chrome、FireFox、Safari、IE10及以上浏览器支持全部功能
 
-   IE10及以下不支持水印被用户手动调用开发者工具删除水印dom的情况 
+  IE10及以下不支持水印被用户手动调用开发者工具删除水印dom的情况 

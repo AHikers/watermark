@@ -1,5 +1,5 @@
 {
-  "name": "@watermark",
+  "name": "watermark-com",
   "version": "0.0.2",
   "description": "watermark use in react || vue || AngularJS || jq || Native JS",
   "main": "dist/watermark.cjs.js",
