@@ -12,7 +12,7 @@ export default [
       { file: pkg.module, format: 'es' },
       { file: pkg.main, format: 'cjs' },
       {
-        name: 'dadaWatermark',
+        name: 'watermarkObj',
         file: pkg.iife,
         format: 'iife',
       },

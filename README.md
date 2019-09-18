@@ -12,7 +12,7 @@
 
 第二步：在确保页面DOM加载完毕之后，调用watermark方法
 ```
-dadaWatermark.watermark({ text: "测试水印" })
+watermarkObj.watermark({ text: "测试水印" })
 ```
 
 ### 2、npm包引入
